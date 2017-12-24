@@ -40,3 +40,6 @@ def test():
         visualizer.save_images(webpage, visuals, img_path)
 
     webpage.save()
+
+if __name__ == '__main__':
+    test()
