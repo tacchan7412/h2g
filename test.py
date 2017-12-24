@@ -14,6 +14,7 @@ opt.no_flip = True  # no flip
 opt.gpu_ids = -1
 opt.name = 'h2g_cyclegan'
 opt.dataset_mode = 'single'
+opt.dataroot = './datasets/h2g'
 opt.model = 'test'
 opt.phase = 'test'
 
